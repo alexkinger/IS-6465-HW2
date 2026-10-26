@@ -1,11 +1,13 @@
 AI tool: Cursor (Composer)
 
 How AI assisted:
+- Helped get the codespace set up initially and navigate to the proper URLs for testing
 - Translated HW1 wireframes (Air Asia Diagram) into HTML page structures for the five required pages
 - Suggested semantic HTML elements and accessible form labels
 - Helped create and improve the shared CSS (list layout, forms, details)
 - Debugged links, form actions, image paths, and styling so the required workflow works
 - Reviewed the site against the HW2 requirements (filenames, fields, no Card ID input, no unused Delete/Customer pages)
+- Walked through specific requirements (for example, "Form submission directs the user to card-list.php") to ensure all aspects of this assignment were covered.
 
 Walkthrough of requirement checks with AI:
 - Login page: username and password fields, Login button form action set to card-list.php
