@@ -1,0 +1,10 @@
+AI tool: Cursor (Composer)
+
+How AI assisted:
+- Translated HW1 wireframes (Air Asia Diagram) into HTML page structures for the five required pages
+- Suggested semantic HTML elements and accessible form labels
+- Helped create and improve the shared CSS (list layout, forms, details)
+- Debugged links, form actions, image paths, and styling so the required workflow works
+- Reviewed the site against the HW2 requirements (filenames, fields, no Card ID input, no unused Delete/Customer pages)
+
+I tested pages in the browser, checked that forms go to card-list.php, and confirmed image/CSS paths before submitting.
