@@ -1,62 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gift Card List | AirAsia Rewards</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gift Card List | AirAsia Rewards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a class="brand" href="card-list.php">AirAsia Rewards</a>
-      <nav class="nav-links" aria-label="Primary">
-        <a class="active" href="card-list.php" aria-current="page">Gift Cards</a>
-        <a href="card-add.php">Add Gift Card</a>
-        <a href="login.php">Logout</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <h1>Gift Card List</h1>
-    <p class="page-intro">Browse available gift cards and redeem with your reward points.</p>
-
-    <p class="top-actions">
-      <a class="btn btn-primary" href="card-add.php">Add Gift Card</a>
-    </p>
-
-    <section class="card-list" aria-label="Available gift cards">
-      <article class="card-row">
-        <a class="card-thumb" href="card-details.php">
-          <img src="images/gift-card.png" alt="Amazon $25 Gift Card">
-        </a>
-        <div class="card-row-body">
-          <h2><a href="card-details.php">Amazon $25 Gift Card</a></h2>
-          <p class="points">5,000 points required</p>
+    <nav class="site-nav border-bottom bg-white">
+        <div class="container d-flex align-items-center justify-content-between py-3">
+            <a class="site-brand" href="card-list.php">AirAsia Rewards</a>
+            <div class="site-links">
+                <a class="active" href="card-list.php" aria-current="page">Gift Cards</a>
+                <a href="card-add.php">Add Gift Card</a>
+                <a href="login.php">Logout</a>
+            </div>
         </div>
-      </article>
+    </nav>
 
-      <article class="card-row">
-        <a class="card-thumb" href="card-details.php">
-          <img src="images/gift-card.png" alt="Starbucks $15 Gift Card">
-        </a>
-        <div class="card-row-body">
-          <h2><a href="card-details.php">Starbucks $15 Gift Card</a></h2>
-          <p class="points">3,000 points required</p>
-        </div>
-      </article>
+    <main class="container py-4">
+        <h1 class="mb-3">Gift Card List</h1>
+        <p>Browse available gift cards and redeem with your reward points.</p>
 
-      <article class="card-row">
-        <a class="card-thumb" href="card-details.php">
-          <img src="images/gift-card.png" alt="Grab $20 Gift Card">
-        </a>
-        <div class="card-row-body">
-          <h2><a href="card-details.php">Grab $20 Gift Card</a></h2>
-          <p class="points">4,000 points required</p>
+        <p class="mb-4">
+            <a class="btn btn-primary" href="card-add.php">Add Gift Card</a>
+        </p>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered align-middle">
+                <caption>Available gift cards and points required</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Card Name</th>
+                        <th scope="col">Points Required</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="card-details.php">
+                                <img class="gift-thumb img-thumbnail" src="images/gift-card.png" alt="Amazon $25 Gift Card">
+                            </a>
+                        </td>
+                        <td><a href="card-details.php">Amazon $25 Gift Card</a></td>
+                        <td>5,000</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="card-details.php">
+                                <img class="gift-thumb img-thumbnail" src="images/gift-card.png" alt="Starbucks $15 Gift Card">
+                            </a>
+                        </td>
+                        <td><a href="card-details.php">Starbucks $15 Gift Card</a></td>
+                        <td>3,000</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="card-details.php">
+                                <img class="gift-thumb img-thumbnail" src="images/gift-card.png" alt="Grab $20 Gift Card">
+                            </a>
+                        </td>
+                        <td><a href="card-details.php">Grab $20 Gift Card</a></td>
+                        <td>4,000</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-      </article>
-    </section>
-  </main>
+    </main>
 </body>
+
 </html>
